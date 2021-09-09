@@ -1,4 +1,5 @@
-FROM ubuntu:20.04RUN apt-get update && apt-get -y install sudo
+FROM ubuntu:20.04
+RUN apt-get update && apt-get -y install sudo
 RUN sudo apt-get -y install software-properties-common
 
 ### INSTALL PYTHON
